@@ -38,7 +38,7 @@ body {
 .ryu-cool {
 	background-image: url('../images/ryu-cool.gif ')
 }
-.hadouken, .ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool {
+.hadouken, .ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool, .logo {
   background-repeat: no-repeat;
 }
 
@@ -55,19 +55,20 @@ body {
 
 .logo {
 	background-image: url('../images/Street_Fighter_Logo.png');
-	height: 140px;
-	width: 279px;
+	background-position: 550px 50px;
+	height: 250px;
 	position: relative;
-	top: 36px;
-	left: 560px;
+/*	top: 36px;
+	left: 560px;*/
 }
 
 .directions {
 	font-family: 'Permanent Marker', cursive;
-	position: relative;
-	top: 150px;
-	left: -220px;
+	position: absolute;
+	/*top: 271px;*/
+	left: 525px;
 	font-size: 1.4em;
+	padding-top: 250px;
 }
 p {
 	line-height: 1.4em;
