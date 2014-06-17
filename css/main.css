@@ -53,6 +53,27 @@ body {
   left: -195px;
 }
 
+.logo {
+	background-image: url('../images/Street_Fighter_Logo.png');
+	height: 140px;
+	width: 279px;
+	position: relative;
+	top: -452px;
+	left: 560px;
+}
+
+.directions {
+	font-family: 'Permanent Marker', cursive;
+	position: relative;
+	top: -335px;
+	left: 375px;
+	font-size: 1.2em;
+}
+p {
+	line-height: 1.4em;
+	text-align: center;
+}
+
 /** {
   outline: red 1px solid;
 }*/
