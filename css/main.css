@@ -58,16 +58,16 @@ body {
 	height: 140px;
 	width: 279px;
 	position: relative;
-	top: -452px;
+	top: 36px;
 	left: 560px;
 }
 
 .directions {
 	font-family: 'Permanent Marker', cursive;
 	position: relative;
-	top: -335px;
-	left: 375px;
-	font-size: 1.2em;
+	top: 150px;
+	left: -220px;
+	font-size: 1.4em;
 }
 p {
 	line-height: 1.4em;
