@@ -8,10 +8,13 @@ body {
 	padding-left: 100px;
 	min-width: 1200px;
 	height: 500px;
+	position: relative;
 }
 
 .ryu {
 	float: left;
+	position: relative;
+	z-index: 1000;
 }
 
 .ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool {
@@ -25,10 +28,12 @@ body {
 
 .ryu-ready {
 	background-image: url('../images/ryu-ready-position.gif');
+	z-index: 5;
 }
 
 .ryu-still {
 	background-image: url('../images/ryu-standing-still.png');
+	z-index: 50;
 }
 
 .ryu-throwing {
@@ -58,6 +63,7 @@ body {
 	background-position: 550px 50px;
 	height: 250px;
 	position: relative;
+	z-index: 1;
 /*	top: 36px;
 	left: 560px;*/
 }
