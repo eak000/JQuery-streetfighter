@@ -1,0 +1,1 @@
+This was the first jQuery project for thinkful.com’s FEWD program, based on the 90’s video game Street Fighter. 
